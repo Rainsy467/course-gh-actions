@@ -11,6 +11,4 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            run: sleep 5
-            - name: Run a multi-line script
-              run: go version
+            run: go version
